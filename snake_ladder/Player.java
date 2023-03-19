@@ -24,9 +24,10 @@ public class Player {
         position = 0;
         coin = new Circle(coinSize);
         coin.setFill(coinColor);
-
         movePlayer(1);
     }
+
+    //  Starting Position
     public void setStart()
     {
         position =0;
